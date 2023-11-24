@@ -1,0 +1,117 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* GÉNÉRAL */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+ 
+/* HEADER */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+ 
+header h1 {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+header nav ul {
+    display: inline;
+    list-style: none;
+}
+ 
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+ 
+/* MAIN */
+main {
+    padding: 20px;
+}
+ 
+/* PRODUITS */
+.produits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+ 
+.produit {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.produit img {
+    width: 100%;
+    height: auto;
+}
+ 
+.produit h3 {
+    margin: 10px 0;
+}
+ 
+.produit p {
+    margin: 5px 0;
+}
+ 
+.produit button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+ 
+.produit button:hover {
+    background-color: #555;
+}
+ 
+/* PANIER */
+.panier {
+    margin-top: 50px;
+}
+ 
+.panier ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.panier ul li {
+    padding: 10px 0;
+}
+ 
+.panier button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+ 
+.panier button:hover {
+    background-color: #555;
+}
+ 
+/* FOOTER */
+footer {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}

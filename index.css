@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    background-image: url("./Images/Logo-entreprise.png");
+    height: 100px;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
